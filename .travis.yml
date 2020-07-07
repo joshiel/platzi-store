@@ -14,7 +14,7 @@ script:
 deploy:
   strategy: git
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   keep_history: true
   token: $GITHUB_TOKEN
   local_dir: dist/
