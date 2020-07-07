@@ -12,6 +12,7 @@ git:
 script:
   - yarn build
 deploy:
+  strategy: git
   provider: pages
   cleanup: true
   keep_history: true
