@@ -13,7 +13,7 @@ deploy:
   provider: pages
   cleanup: true
   keep_history: true
-  token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN
   local_dir: dist/
   target_branch: gh-page
   commit_message: 'Deploy del proyecto'
